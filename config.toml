@@ -7,6 +7,7 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 # you can use rvmm-config-gen to generate a config
 
 [YouTube]
+enabled = false
 build-mode = "both"
 excluded-patches = ""
 included-patches = "'Custom Branding'"
@@ -18,7 +19,8 @@ app-name = "YouTube"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
-rv-brand = "ReVanced Extended"
+excluded-patches = "'Custom Branding' 'Custom branding icon MMT' 'Custom branding icon Revancify Blue' 'Custom branding icon Revancify Red'"
+rv-brand = "Youtube"
 build-mode = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 
@@ -27,10 +29,10 @@ enabled = false
 uptodown-dlurl = "https://spotify.en.uptodown.com/android"
 
 [Youtube Vanced]
+enabled = false 
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube"
 patches-source = "Inotia00/revanced-patches"
 integrations-source = "Inotia00/revanced-integrations"
 rv-brand = "Inotia00 ReVanced"
 apkmirror-arch = "arm64-v8a"
 exclusive-patches = true
-
