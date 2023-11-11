@@ -16,5 +16,14 @@
         "value": "YouTube Vanced"
       }
     ]
+  },
+  {
+    "patchName": "Custom package name",
+    "options": [
+      {
+        "key": "PackageNameYouTube",
+        "value": "com.vanced.android.youtube"
+      }
+    ]
   }
 ]
