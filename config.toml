@@ -39,5 +39,6 @@ excluded-patches = ""
 enabled = true
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 build-mode = "apk" 
+rv-brand = ""
 included-patches = "'Custom branding'"
 excluded-patches = "'Announcements' 'Swipe controls'"
