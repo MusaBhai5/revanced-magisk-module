@@ -6,7 +6,7 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 
 # you can use rvmm-config-gen to generate a config
 [YouTube-Extended]
-enabled = false
+enabled = true
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
@@ -16,7 +16,7 @@ included-patches = "'MaterialYou'"
 excluded-patches = "'Custom branding icon Revancify Blue' 'Custom package name' 'Custom branding name YouTube' 'Theme'"
 
 [YouTube-Vanced]
-enabled = false
+enabled = true
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
@@ -26,7 +26,7 @@ included-patches = "'Custom branding icon Revancify Red'"
 excluded-patches = "'Custom branding icon Revancify Blue'"
 
 [Revanced-Extended]
-enabled = true 
+enabled = false
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
@@ -36,7 +36,7 @@ included-patches = ""
 excluded-patches = "'Custom branding name YouTube' 'Custom package name'"
 
 [YouTube-ReVanced]
-enabled = false
+enabled = true
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 build-mode = "apk" 
 rv-brand = ""
