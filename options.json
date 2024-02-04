@@ -18,6 +18,15 @@
     ]
   },
   {
+    "patchName": "Custom branding icon YouTube",
+    "options": [
+      {
+        "key": "AppIcon",
+        "value": "Revancify Red"
+      }
+    ]
+  },
+  {
     "patchName": "Custom package name",
     "options": [
       {
