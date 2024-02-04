@@ -9,6 +9,15 @@
     ]
   },
   {
+    "patchName": "Custom branding icon YouTube",
+    "options": [
+      {
+        "key": "AppIcon",
+        "value": "MMT"
+      }
+    ]
+  },
+  {
     "patchName": "Custom package name",
     "options": [
       {
