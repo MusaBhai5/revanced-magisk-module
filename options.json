@@ -13,7 +13,7 @@
     "options": [
       {
         "key": "AppName",
-        "value": "YouTube Vanced"
+        "value": "ReVanced Extended"
       }
     ]
   },
@@ -22,7 +22,7 @@
     "options": [
       {
         "key": "PackageNameYouTube",
-        "value": "com.vanced.android.youtube"
+        "value": "app.rvx.android.youtube"
       }
     ]
   }
