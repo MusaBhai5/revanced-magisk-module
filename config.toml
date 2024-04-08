@@ -6,7 +6,7 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 
 # you can use rvmm-config-gen to generate a config
 [YouTube-Extended]
-enabled = true
+enabled = false #change to true
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 patches-source = "YT-Advanced/ReX-patches"
 integrations-source = "YT-Advanced/ReX-integrations"
