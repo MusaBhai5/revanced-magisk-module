@@ -1,44 +1,17 @@
-logging-to-file = true        # enables logging of every patch process to a seperate file
+7logging-to-file = true        # enables logging of every patch process to a seperate file
 enable-magisk-update = true   # set this to false if you do not want to receive updates for the module in magisk app
 
 # add 'enabled = false' for not patching a specific app or remove it from the config
 # see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
 
 # you can use rvmm-config-gen to generate a config
-[YouTube-Extended]
-enabled = false
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
-patches-source = "inotia00/revanced-patches"
-integrations-source = "inotia00/revanced-integrations"
-rv-brand = ""
-build-mode = "module"
-included-patches = "'MaterialYou' 'Custom branding icon Revancify Red'"
-excluded-patches = "'Custom branding icon Revancify Blue' 'Custom package name' 'Custom branding name YouTube' 'Theme'"
-
-[YouTube-Vanced]
-enabled = false
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
-patches-source = "inotia00/revanced-patches"
-integrations-source = "inotia00/revanced-integrations"
-rv-brand = ""
-build-mode = "apk"
-included-patches = ""
-excluded-patches = ""
 
 [Revanced-Extended]
 enabled = true 
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
-patches-source = "YT-Advanced/ReX-patches"
-integrations-source = "YT-Advanced/ReX-integrations"
+patches-source = "inotia00/revanced-patches"
+integrations-source = "inotia00/revanced-integrations"
 rv-brand = ""
 build-mode = "apk"
 included-patches = ""
 excluded-patches = ""
-
-[YouTube-ReVanced]
-enabled = false
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
-build-mode = "apk" 
-rv-brand = ""
-included-patches = "'Custom branding'"
-excluded-patches = "'Announcements' 'Swipe controls'"
