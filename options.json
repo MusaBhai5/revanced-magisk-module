@@ -1,14 +1,5 @@
 [
   {
-    "patchName": "Custom branding",
-    "options": [
-      {
-        "key": "appName",
-        "value": "YouTube ReVanced"
-      }
-    ]
-  },
-  {
     "patchName": "Custom branding name YouTube",
     "options": [
       {
